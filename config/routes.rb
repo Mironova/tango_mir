@@ -11,6 +11,7 @@ TangoMir::Application.routes.draw do
   match '/event',          to: 'main_pages#event',          via: 'get'
   match '/nosotros',       to: 'main_pages#nosotros',       via: 'get'
   match '/contact',        to: 'main_pages#contact',        via: 'get'
+  match '/ropa',           to: 'main_pages#ropa',           via: 'get'
   
   
   # The priority is based upon order of creation: first created -> highest priority.

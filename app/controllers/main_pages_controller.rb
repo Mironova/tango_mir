@@ -16,4 +16,8 @@ class MainPagesController < ApplicationController
 
   def contact
   end
+
+  def ropa    
+  end
+  
 end
