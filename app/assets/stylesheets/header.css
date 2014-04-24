@@ -1,8 +1,18 @@
-.home {
-	
+.navbar.home {
 	background-color: rgba(0, 0, 0, 0);
 	border-color: rgba(0, 0, 0, 0);
 }
-.image {
+
+.navbar .container .navbar-brand {
+	margin-top: -20px;
+}
+
+.background_img {
 	margin-top: -70px;
+}
+
+.navbar {
+	background-color: #3C3C3C;
+	border-color: #3C3C3C;
+	background-image: url(nightlife_bg.png);
 }
