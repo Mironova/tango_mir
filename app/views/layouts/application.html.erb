@@ -7,18 +7,27 @@
   <%= csrf_meta_tags %>
 </head>
 
-<body>
-
-	<header>
-
-  	<%= render 'layouts/header' %>
-  	<%= debug params[:action] %>
-
-	</header>
 
 
+<header>
 
-	<%= yield %>
+	<%= render 'layouts/header' %>
 
+</header>
+
+<body class="Site">
+
+	<main class="Site-content">
+		<%= yield %>
+	</main>
+	
 </body>
+
+<footer>
+
+	<%= render 'layouts/footer' %>
+
+</footer>
+
+
 </html>

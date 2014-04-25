@@ -1,3 +1,29 @@
 // Place all the styles related to the MainPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+.background_img {
+
+	position: fixed;
+}
+
+.content {
+	position: relative;
+	margin-top: 67px;
+}
+
+.content-home {
+	position: relative;
+	margin-top: 343px;
+	background-color: #FFFFFF;
+}
