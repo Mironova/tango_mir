@@ -1,4 +1,4 @@
-.navbar.home {
+/*.navbar.home {
 	background-image: url(nightlife_img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -6,7 +6,7 @@
 	border-color: rgba(0, 0, 0, 0);
 	height: 343px;
 	background-position: top center;
-}
+}*/
 
 .navbar .container .navbar-brand {
 	margin-top: -20px;
