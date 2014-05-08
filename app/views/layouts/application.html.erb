@@ -9,25 +9,21 @@
 
 
 
-<header>
 
-	<%= render 'layouts/header' %>
 
-</header>
 
 <body class="Site">
+    <%= render 'layouts/header' %>
+
 
 	<main class="Site-content">
 		<%= yield %>
 	</main>
-	
+
+    <%= render 'layouts/footer' %>
 </body>
 
-<footer>
 
-	<%= render 'layouts/footer' %>
-
-</footer>
 
 
 </html>
