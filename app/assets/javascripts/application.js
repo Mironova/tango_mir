@@ -11,41 +11,13 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.ui.all
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
-//= require freewall
 //= require_tree .
 
 $(document).ready(function(){
-
-
-    var wall = new freewall("#freewall");
-    wall.reset({
-        selector: '.item',
-        animate: true,
-        cellW: 250,
-        cellH: 'auto',
-        onResize: function() {
-            wall.fitWidth();
-        }
-    });
-
-    var images = wall.container.find('.item');
-    var length = images.length;
-    images.css({visibility: 'hidden'});
-    images.find('img').load(function() {
-        -- length;
-        if (!length) {
-            setTimeout(function() {
-                images.css({visibility: 'visible'});
-                wall.fitWidth();
-            }, 505);
-        }
-    });
-
-
-
 
 
 });
