@@ -1,0 +1,15 @@
+.row.content {
+	position: relative;
+	margin-top: 67px;
+	background-image: url('noise_dark.png');
+	background-color: aliceblue;
+}
+
+/*.col-md-2.leftside, .col-md-4.rightside {
+	background-image: url('noise_dark.png');
+	background-color: aliceblue;
+}*/
+
+.col-md-6.content {
+	background-color: white;
+}

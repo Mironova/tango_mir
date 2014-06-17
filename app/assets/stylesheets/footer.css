@@ -8,3 +8,7 @@ footer p {
 	color: #838383;
 	font-weight: bold;
 }
+
+.container .col-md-2.logo {
+	padding-left: 0;
+}
